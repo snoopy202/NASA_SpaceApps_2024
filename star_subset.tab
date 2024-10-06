@@ -1,0 +1,57 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Sat Oct  5 15:33:38 2024
+#
+# User preference: *
+#
+# CONSTRAINT:  where (sy_snum = 1
+# CONSTRAINT:  and sy_pnum = 1)
+# CONSTRAINT:  order by pl_eqt desc, pl_orbeccen desc
+#
+# COLUMN pl_name:        Planet Name
+# COLUMN hostname:       Host Name
+# COLUMN sy_snum:        Number of Stars
+# COLUMN sy_pnum:        Number of Planets
+# COLUMN discoverymethod: Discovery Method
+# COLUMN disc_year:      Discovery Year
+# COLUMN disc_facility:  Discovery Facility
+# COLUMN pl_controv_flag: Controversial Flag
+# COLUMN pl_orbper:      Orbital Period [days]
+# COLUMN pl_orbsmax:     Orbit Semi-Major Axis [au]
+# COLUMN pl_rade:        Planet Radius [Earth Radius]
+# COLUMN pl_radj:        Planet Radius [Jupiter Radius]
+# COLUMN pl_bmasse:      Planet Mass or Mass*sin(i) [Earth Mass]
+# COLUMN pl_bmassj:      Planet Mass or Mass*sin(i) [Jupiter Mass]
+# COLUMN pl_bmassprov:   Planet Mass or Mass*sin(i) Provenance
+# COLUMN pl_orbeccen:    Eccentricity
+# COLUMN pl_eqt:         Equilibrium Temperature [K]
+# COLUMN ttv_flag:       Data show Transit Timing Variations
+# COLUMN st_spectype:    Spectral Type
+# COLUMN st_teff:        Stellar Effective Temperature [K]
+# COLUMN st_rad:         Stellar Radius [Solar Radius]
+# COLUMN st_mass:        Stellar Mass [Solar mass]
+# COLUMN st_met:         Stellar Metallicity [dex]
+# COLUMN st_metratio:    Stellar Metallicity Ratio
+# COLUMN st_logg:        Stellar Surface Gravity [log10(cm/s**2)]
+# COLUMN rastr:          RA [sexagesimal]
+# COLUMN ra:             RA [deg]
+# COLUMN decstr:         Dec [sexagesimal]
+# COLUMN dec:            Dec [deg]
+# COLUMN sy_dist:        Distance [pc]
+# COLUMN sy_vmag:        V (Johnson) Magnitude
+# COLUMN sy_kmag:        Ks (2MASS) Magnitude
+# COLUMN sy_gaiamag:     Gaia Magnitude
+#
+pl_name	hostname	sy_snum	sy_pnum	discoverymethod	disc_year	disc_facility	pl_controv_flag	pl_orbper	pl_orbsmax	pl_rade	pl_radj	pl_bmasse	pl_bmassj	pl_bmassprov	pl_orbeccen	pl_eqt	ttv_flag	st_spectype	st_teff	st_rad	st_mass	st_met	st_metratio	st_logg	rastr	ra	decstr	dec	sy_dist	sy_vmag	sy_kmag	sy_gaiamag
+CoRoT-14 b	CoRoT-14	1	1	Transit	2010	CoRoT	0	1.51214000	0.027000	12.220	1.090	2415.40000	7.60000	Mass	0.000000	1952	0	F9 V	6035.00	1.21	1.13	0.050	[Fe/H]	4.35	06h53m41.81s	103.4242023	-05d32m09.74s	-5.5360385	1744.6000000	15.9320000	13.8060000	15.8116000
+EPIC 201595106 b	EPIC 201595106	1	1	Transit	2021	K2	0	0.87721400		1.300	0.116	2.24000	0.00705	M-R relationship		1874	0		5820.00	0.93	1.02	-0.010	[Fe/H]	4.60	12h14m52.89s	183.7203635	+01d58m05.41s	1.9681688	232.1000000	11.7460000	10.2180000	11.6477000
+CoRoT-13 b	CoRoT-13	1	1	Transit	2010	CoRoT	0	4.03519000	0.051000	9.920	0.885	415.70400	1.30800	Mass	0.000000	1700	0	G0 V	5945.00	1.01	1.09	0.010	[Fe/H]	4.46	06h50m53.07s	102.7211432	-05d05m11.24s	-5.0864557	1148.9300000	15.0050000	13.3760000	14.9147000
+HD 73344 b	HD 73344	1	1	Transit	2024	K2	0	15.61100000	0.131000	2.884	0.257	10.48000	0.03297	Mass	0.030000	911	0	F6 V	6252.60	1.22	1.20	0.143	[Fe/H]	4.37	08h38m45.47s	129.6894456	+23d41m06.95s	23.6852651	35.2600000	6.8935100	5.5670000	6.7468000
+HD 168746 b	HD 168746	1	1	Radial Velocity	2002	La Silla Observatory	0	6.40400000	0.070000	11.100	0.993	85.81410	0.27000	Msini	0.110000	900	0	G5	5570.00	1.09	1.07	-0.080	[Fe/H]	4.39	18h21m49.76s	275.4573269	-11d55m22.71s	-11.9229757	41.5681000	7.9500000	6.2530000	7.7716900
+HD 17156 b	HD 17156	1	1	Radial Velocity	2007	Subaru Telescope	0	21.21663000	0.162780	12.330	1.100	1115.58330	3.51000	Mass	0.680000	883	0	G5	6040.00	1.55	1.41	0.190	[Fe/H]	4.20	02h49m44.79s	42.4366123	+71d45m11.12s	71.7530882	78.0863000	8.1700000	6.7630000	8.0329800
+TOI-1696 b	TOI-1696	1	1	Transit	2022	Transiting Exoplanet Survey Satellite (TESS)	0	2.50031100	0.022900	3.090	0.276	48.80000	0.15354	Mass	0.000000	489	0	M5V	3185.00	0.28	0.26	0.336	[Fe/H]	4.96	04h21m07.36s	65.2806480	+48d49m11.39s	48.8198312	64.9172000	16.8200000	11.3310000	15.3314000
+Kepler-22 b	Kepler-22	1	1	Transit	2011	Kepler	0	289.86387600	0.812000	2.100	0.187	9.10000	0.02863	Mass	0.720000	279	0	G5 V	5596.00	0.87	0.86	-0.255	[Fe/H]	4.44	19h16m52.13s	289.2172051	+47d53m02.91s	47.8841427	194.6420000	11.7510000	10.1520000	11.6444000
+4 UMa b	4 UMa	1	1	Radial Velocity	2006	Thueringer Landessternwarte Tautenburg	0	270.27000000	0.877000	12.600	1.120	2511.48007	7.90200	Msini	0.453000		0	K1 III	4415.00	18.11	1.23	-0.250	[Fe/H]	1.80	08h40m12.67s	130.0528099	+64d19m40.98s	64.3280504	73.4603000	4.5801000	1.7340000	4.2377300
+HD 216536 b	HD 216536	1	1	Radial Velocity	2015	McDonald Observatory	0	148.60001000	0.610000	13.800	1.230	333.72150	1.05000	Msini	0.380000		0	K0	4639.00	9.83	0.81	-0.170	[Fe/H]	2.36	22h53m03.98s	343.2665641	+44d28m39.83s	44.4777303	376.2330000	9.2290000	6.4960000	8.8832400
+CoRoT-16 b	CoRoT-16	1	1	Transit	2011	CoRoT	0	5.35227000	0.061800	13.110	1.170	170.03200	0.53500	Mass	0.330000		0	G5 V	5650.00	1.19	1.10	0.190	[M/H]	4.36	18h34m05.92s	278.5246658	-06d00m09.37s	-6.0026026	732.4090000	16.0520000	12.8470000	15.6507000
+24 Boo b	24 Boo	1	1	Radial Velocity	2018	Okayama Astrophysical Observatory	0	30.33000000	0.194000	13.900	1.240	280.64248	0.88300	Msini	0.032000		0	G3 IV	4816.00	12.19	1.05	-0.780	[Fe/H]	2.28	14h28m37.33s	217.1555242	+49d50m40.74s	49.8446488	95.9863000	5.5900000	3.1590000	5.3339000
+UKIRT-2017-BLG-001L b	UKIRT-2017-BLG-001L	1	1	Microlensing	2018	Mauna Kea Observatory	0		4.180000	13.700	1.220	407.00000	1.28000	Mass			0				0.81				17h46m36.98s	266.6540830	-29d12m40.9s	-29.2113609	6300.0000000		17.7000000	
