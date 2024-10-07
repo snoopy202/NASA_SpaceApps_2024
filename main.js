@@ -23398,7 +23398,7 @@ JPL.Config = {
         sun :  0xAAAAAA,
         ambient: 0x666666
     },
-    majorBodies : "majorbodies.json",
+    majorBodies : "star_subset.json",
     sbdb : "https://ssd-api.jpl.nasa.gov/sbdb.api",
     demoVideo : "https://www.youtube.com/embed/54ujy7_8AYQ",
     simulationDateMinimum: 2305447.500000,
